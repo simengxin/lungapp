@@ -1,0 +1,14 @@
+INSERT INTO `image_save` VALUES ('smx', './uploads/files/000.raw', 1);
+INSERT INTO `image_save` VALUES ('smx', './uploads/files/885.raw', 2);
+INSERT INTO `image_save` VALUES ('qq2601388001', './uploads/files/002.raw', 3);
+INSERT INTO `image_save` VALUES ('smx', './uploads/files/047.raw', 4);
+INSERT INTO `image_save` VALUES ('smx', './uploads/files/461.raw', 5);
+INSERT INTO `image_save` VALUES ('smx', './uploads/files/026.raw', 6);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/015.raw', 7);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/009.raw', 8);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/001.raw', 9);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/000.raw', 10);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/002.raw', 12);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/000.raw', 13);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/008.raw', 14);
+INSERT INTO `image_save` VALUES ('admin', './uploads/files/000.raw', 15);
