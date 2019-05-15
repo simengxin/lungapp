@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title> 页面名称 </title>
+</head>
+<body>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<table id="tab">
+    <tr><td>aaaaa</td><td><input type="button" value="button" /></td></tr>
+    <tr><td>bbbbb</td><td><input type="button" value="button" /></td></tr>
+    <tr><td>ccccc</td><td><input type="button" value="button" /></td></tr>
+    <tr><td>ddddd</td><td><input type="button" value="button" /></td></tr>
+</table>
+<input type="text" id="text" />
+<script type="text/javascript">
+$(function(){
+    $("#tab").on("click", ":button", function(event){
+        $("#text").val($(this).closest("tr").find("td").eq(0).text());
+    });
+});
+</script>
+</body>
+</html>
